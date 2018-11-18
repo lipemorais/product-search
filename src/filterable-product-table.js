@@ -111,7 +111,7 @@ class FilterableProductTable extends Component {
 
     this.state = {
       filterBy: '',
-      inStockOnly: true
+      inStockOnly: false
     }
 
     this.handleFilterByChange = this.handleFilterByChange.bind(this)
