@@ -159,4 +159,4 @@ class FilterableProductTable extends Component {
   }
 }
 
-export default FilterableProductTable
+export { SearchBar, ProductCategoryRow, ProductRow, ProductTable, FilterableProductTable }
