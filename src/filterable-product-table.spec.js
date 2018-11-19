@@ -8,9 +8,9 @@ test('render product category row', () => {
         name: 'fake product name'
     }
 
-    const { queryByText } = render(
-        <ProductCategoryRow product={product} />
+    const { queryByText} = render(
+        <ProductCategoryRow name={product.name} />
     )
 
-    expect(queryByText('fake')).not.toBeNull()
+    expect(queryByText(/fake/)).not.toBeNull()
 })
